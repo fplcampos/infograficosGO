@@ -1,0 +1,122 @@
+/* 
+* Desenvolvimento: Felipe Campos
+* fplcampos@gmail.com
+* 2015-07-14
+*/
+
+body {background:url('../imagens/bg.jpg') no-repeat center top; min-height:2398px;}
+
+.wrap {margin:0 auto; overflow:hidden; position:relative; width:1000px;}
+
+h1 {background:url('../imagens/logo-govGO.jpg') no-repeat left top; display:inline-block; height:93px; position:absolute; text-indent:-9999px; top:0; width:195px;}
+h1 a {display:block; height:100%; width:100%;}
+
+/*
+* AREA 1
+*/
+.area-1 {min-height:592px; position:relative;}
+.area-1 .titArea-1 {background:url('../imagens/titArea-1.png') no-repeat left top; display:inline-block; height:61px; left:224px; position:absolute; text-indent:-9999px; top:197px; width:565px;}
+.area-1 .titArea-12 {background:url('../imagens/titArea-12.png') no-repeat left top; display:inline-block; height:129px; left:135px; position:absolute; text-indent:-9999px; top:292px; width:722px;}
+.area-1 .titArea-13 {background:url('../imagens/titArea-13.png') no-repeat left top; display:inline-block; height:29px; left:360px; position:absolute; text-indent:-9999px; top:473px; width:272px;}
+.area-1 .seta {background:url('../imagens/seta.png') no-repeat left top; display:inline-block; bottom:30px; cursor:pointer; height:40px; left:479px; position:absolute; text-indent:-9999px; width:41px;}
+
+/*
+* AREA 2
+*/
+.area-2 {min-height:592px; position:relative;}
+.titArea-2 {background:url('../imagens/titArea-2.png') no-repeat left top; display:none; height:163px; left:29px; position:absolute; text-indent:-9999px; top:79px; width:817px;}
+.arte-2 {background:url('../imagens/arte-2.png') no-repeat left top; display:none; height:255px; left:70px; position:absolute; top:294px; width:218px;}
+.arte-21 {background:url('../imagens/arte-21.png') no-repeat left top; bottom:46px; display:none; height:310px; position:absolute; right:42px; width:586px;}
+.fumaca {background:url('../imagens/fumaca.png') no-repeat left top; bottom:212px; display:none; height:96px; position:absolute; right:68px; width:132px;}
+.foguete {background:url('../imagens/foguete.png') no-repeat left top; bottom:250px; display:none; height:156px; position:absolute; right:68px; width:80px;}
+
+.floating {
+	-webkit-animation-name: Floatingx;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: ease-in-out;
+	-moz-animation-name: Floating;
+	-moz-animation-duration: 3s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: ease-in-out;
+	animation-name: Floating;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes Floatingx {
+	from {-webkit-transform:translate(0, 0px);}
+	65% {-webkit-transform:translate(0, -25px);}
+	to {-webkit-transform: translate(0, 0px);}
+}
+	
+@-moz-keyframes Floating {
+	from {-moz-transform:translate(0, 0px);}
+	65% {-moz-transform:translate(0, -25px);}
+	to {-moz-transform: translate(0, 0px);}
+}
+
+@keyframes Floating {
+	from {transform:translate(0, 0px);}
+	65% {transform:translate(0, -25px);}
+	to {transform: translate(0, 0px);}
+}
+
+.scaling {
+	-webkit-animation-name: scalex;
+	-webkit-animation-duration:3s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:ease-in-out;
+	-moz-animation-name: scale;
+	-moz-animation-duration:3s;
+	-moz-animation-iteration-count:infinite;
+	-moz-animation-timing-function:ease-in-out;
+	animation-name: scale;
+	animation-duration:3s;
+	animation-iteration-count:infinite;
+	animation-timing-function:ease-in-out;
+}
+
+@-webkit-keyframes scalex{
+	from {-webkit-transform: scale(1.0);}
+	65% {-webkit-transform: scale(0.9);}
+	to {-webkit-transform: scale(1.0);}
+}
+	
+@-moz-keyframes scale{
+	from {-moz-transform: scale(1.0);}
+	65% {-moz-transform: scale(0.9);}
+	to {-moz-transform: scale(1.0);}
+}
+
+@keyframes scale{
+	from {transform: scale(1.0);}
+	65% {transform: scale(0.9);}
+	to {transform: scale(1.0);}
+}
+
+/*
+* AREA 3
+*/
+.area-3 {min-height:592px; position:relative;}
+.titArea-3 {background:url('../imagens/titArea-3.png') no-repeat left top; display:none; height:32px; left:207px; position:absolute; text-indent:-9999px; top:51px; width:529px;}
+.info-31 {background:url('../imagens/info-31.png') no-repeat left top; display:none; height:115px; left:0; position:absolute; text-indent:-9999px; top:200px; width:303px;}
+.info-32 {background:url('../imagens/info-32.png') no-repeat left top; display:none; height:124px; position:absolute; text-indent:-9999px; right:0; top:200px; width:194px;}
+.info-33 {background:url('../imagens/info-33.png') no-repeat left top; bottom:31px; display:none; height:107px; left:0; position:absolute; text-indent:-9999px; width:399px;}
+.info-34 {background:url('../imagens/info-34.png') no-repeat left top; bottom:52px; display:none; height:55px; position:absolute; right:0; text-indent:-9999px; width:559px;}
+.bolaEsq, .bolaDir {background:url('../imagens/bolas.png') no-repeat left top; display:none; height:17px; position:absolute; width:77px;}
+.bolaEsq {left:341px; top:243px;}
+.bolaDir {right:233px; top:243px;}
+.arte-3 {background:url('../imagens/arte-3.png') no-repeat left top; display:none; height:247px; left:455px; position:absolute; top:149px; width:198px;}
+
+/*
+* AREA 4
+*/
+.area-4 {min-height:592px; position:relative;}
+.titArea-4 {background:url('../imagens/titArea-4.png') no-repeat left top; display:none; height:80px; left:115px; position:absolute; text-indent:-9999px; top:73px; width:768px;}
+.titArea-41 {background:url('../imagens/titArea-41.png') no-repeat left top; display:none; height:53px; left:670px; position:absolute; text-indent:-9999px; top:263px; width:329px;}
+.titArea-42 {background:url('../imagens/titArea-42.png') no-repeat left top; bottom:175px; display:none; height:85px; position:absolute; right:118px; text-indent:-9999px; width:215px;}
+.info-41 {background:url('../imagens/info-41.png') no-repeat left top; display:none; height:264px; left:0; position:absolute; top:215px; width:247px;}
+.arte-4 {background:url('../imagens/arte-4.png') no-repeat left top; display:none; height:200px; left:395px; position:absolute; top:263px; width:241px;}
+.fonte {background:url('../imagens/url.png') no-repeat left top; bottom:25px; display:none; height:18px; left:177px; position:absolute; text-indent:-9999px; width:632px;}

@@ -1,0 +1,142 @@
+/* 
+* Desenvolvimento: Felipe Campos
+* fplcampos@gmail.com
+* 2015-07-01
+*/
+
+body {background:url('../imagens/bg.jpg') no-repeat center top; min-height:3583px;}
+
+.wrap {margin:0 auto; overflow:hidden; position:relative; width:1000px;}
+
+h1 {background:url('../imagens/logo-govGO.jpg') no-repeat left top; display:block; height:93px; text-indent:-9999px; width:195px;}
+h1 a {display:block; height:100%; width:100%;}
+
+.scroll, .scroll2 {background:url('../imagens/setaDown.png') no-repeat left top; height:40px; width:41px;}
+.topo {background:url('../imagens/setaUp.png') no-repeat left top; height:40px; width:41px;}
+.scroll, .scroll2, .topo {color:#FFF; font-family:'arial, helvetica, sans-serif'; font-size:10px; left:50%; position:absolute; text-indent:-9999px}
+
+/*
+* AREA 1
+*/
+.area-1 {height:344px; min-height:344px; position:relative;}
+.area-1 .frase-top {background:url('../imagens/titArea-1.png') no-repeat left top; height:114px; margin:155px auto 0; position:relative; width:904px}
+.area-1 .scroll {bottom:10px}
+
+/*
+* AREA 2
+*/
+.area-2 {height:1183px; min-height:1183px; position:relative;}
+.area-2 .frase-top {background:url('../imagens/titArea-2.png') no-repeat left top; display:none; height:77px; left:209px; position:absolute; top:62px; width:582px}
+.area-2 .info01 {background:url('../imagens/info01.png') no-repeat left top; display:none; height:92px; left:30px; position:absolute; top:220px; width:412px;}
+.area-2 .casa {background:url('../imagens/casa.png') no-repeat left top; display:none; height:97px; left:529px; position:absolute; top:209px; width:99px;}
+.area-2 .info02 {background:url('../imagens/info02.png') no-repeat left top; display:none; height:88px; left:665px; position:absolute; top:222px; width:330px;}
+.area-2 .famEsq {background:url('../imagens/imgFamEsq.png') no-repeat left top; display:none; height:200px; left:229px; position:absolute; top:395px; width:326px;}
+.area-2 .famDir {background:url('../imagens/imgFamDir.png') no-repeat left top; display:none; height:200px; left:602px; position:absolute; top:395px; width:262px;}
+.area-2 .bullets {background:url('../imagens/bullets.png') no-repeat left top; display:none; height:343px; left:104px; position:absolute; top:353px; width:155px;}
+.area-2 .info03 {background:url('../imagens/info03.png') no-repeat left top; display:none; height:75px; left:307px; position:absolute; top:649px; width:289px;}
+.area-2 .info03_1 {background:url('../imagens/info03_1.png') no-repeat left top; display:none; height:58px; left:631px; position:absolute; top:658px; width:367px;}
+.area-2 .info04 {background:url('../imagens/info04.png') no-repeat left top; display:none; height:96px; left:32px; position:absolute; top:793px; width:209px;}
+.area-2 .info04_1 {background:url('../imagens/info04_1.png') no-repeat left top; display:none; height:95px; left:285px; position:absolute; top:793px; width:126px;}
+.area-2 .info05 {background:url('../imagens/info05.png') no-repeat left top; display:none; height:100px; left:568px; position:absolute; top:793px; width:232px;}
+.area-2 .info05_1 {background:url('../imagens/info05_1.png') no-repeat left top; display:none; height:94px; left:873px; position:absolute; top:793px; width:129px;}
+.area-2 .bairro {background:url('../imagens/bairro.png') no-repeat left top; display:none; height:109px; left:30px; position:absolute; top:1013px; width:383px;}
+.area-2 .obras {background:url('../imagens/obras.png') no-repeat left top; display:none; height:70px; left:570px; position:absolute; top:1051px; width:433px;}
+.area-2 .trator {background:url('../imagens/trator.png') no-repeat left top; height:91px; position:absolute; right:-186px; top:1016px; width:185px;}
+.area-2 .scroll {bottom:583px}
+.area-2 .scroll2 {bottom:10px}
+
+/*
+* AREA 3
+*/
+.area-3 {height:593px; min-height:593px; position:relative;}
+.area-3 .frase-top {background:url('../imagens/titArea-3.png') no-repeat left top; display:none; height:118px; left:201px; position:absolute; top:53px; width:595px}
+.area-3 .frase-top1 {background:url('../imagens/titArea-3_1.png') no-repeat left top; display:none; height:32px; left:260px; position:absolute; top:183px; width:477px}
+.area-3 .info06 {background:url('../imagens/info06.png') no-repeat left top; display:none; height:240px; left:175px; position:absolute; top:297px; width:204px;}
+.area-3 .info06_1 {background:url('../imagens/info06_1.png') no-repeat left top; display:none; height:116px; left:587px; position:absolute; top:286px; width:309px;}
+.area-3 .scroll {bottom:10px}
+
+.area-3 .circInfo06 {display:none; left:122px; position:absolute; top:248px;}
+.area-3 .circInfo06 {
+	-webkit-animation-name: spin;
+	-webkit-animation-duration: 25000ms;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-name: spin;
+	-moz-animation-duration: 25000ms;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	-ms-animation-name: spin;
+	-ms-animation-duration: 25000ms;
+	-ms-animation-iteration-count: infinite;
+	-ms-animation-timing-function: linear;
+	
+	animation-name: spin;
+	animation-duration: 25000ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@-ms-keyframes spin {
+	from { -ms-transform: rotate(0deg); }
+	to { -ms-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+	from { -moz-transform: rotate(0deg); }
+	to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+	from { -webkit-transform: rotate(0deg); }
+	to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+	from {
+		transform:rotate(0deg);
+	}
+	to {
+		transform:rotate(360deg);
+	}
+}
+
+/*
+* AREA 4
+*/
+.area-4 {height:591px; min-height:591px; position:relative;}
+.area-4 .info07 {background:url('../imagens/info07.png') no-repeat left top; display:none; height:254px; left:30px; position:absolute; top:173px; width:520px;}
+.area-4 .casaSusp {background:url('../imagens/casaSusp.png') no-repeat left top; height:209px; position:absolute; right:-141px; top:66px; width:140px;}
+.area-4 .tratorVerm {background:url('../imagens/tratorVerm.png') no-repeat left top; display:none; bottom:0; height:70px; left:-92px; position:absolute; width:92px;}
+.area-4 .casaEsq {background:url('../imagens/casaEsq.png') no-repeat left top; display:none; bottom:0; height:99px; left:487px; position:absolute; width:178px;}
+.area-4 .casaDir {background:url('../imagens/casaDir.png') no-repeat left top; display:none; bottom:0; height:99px; left:808px; position:absolute; width:190px;}
+.area-4 .scroll {bottom:10px}
+
+/*
+* AREA 5
+*/
+.area-5 {height:591px; min-height:591px; overflow:hidden; position:relative;}
+.area-5 .pin {background:url('../imagens/pin.png') no-repeat left top; height:90px; left:30px; position:absolute; top:-90px; width:58px;}
+.area-5 .frase-top {background:url('../imagens/titArea-5.png') no-repeat left top; display:none; left:110px; height:76px; position:absolute; top:77px; width:624px}
+
+.area-5 .cidade1 {background:url('../imagens/titSantaRosa.png') no-repeat left top; left:30px; height:24px; top:235px; width:245px}
+.area-5 .cidade2 {background:url('../imagens/titItaguaru.png') no-repeat left top; left:445px; height:20px; top:239px; width:110px}
+.area-5 .cidade3 {background:url('../imagens/titPetrolinaGO.png') no-repeat left top; left:735px; height:24px; top:235px; width:231px}
+
+.area-5 .cidade1,
+.area-5 .cidade2,
+.area-5 .cidade3 {display:none; position:absolute;}
+
+.area-5 .map1 {background:url('../imagens/spriteCidades.png') no-repeat 0 0;}
+.area-5 .map2 {background:url('../imagens/spriteCidades.png') no-repeat -354px 0;}
+.area-5 .map3 {background:url('../imagens/spriteCidades.png') no-repeat -708px 0;}
+
+.area-5 .map1:hover {background:url('../imagens/spriteCidades.png') no-repeat 0 -344px;}
+.area-5 .map2:hover {background:url('../imagens/spriteCidades.png') no-repeat -354px -344px;}
+.area-5 .map3:hover {background:url('../imagens/spriteCidades.png') no-repeat -708px -344px;}
+
+.area-5 .map1,
+.area-5 .map2,
+.area-5 .map3 {display:none; float:left; height:232px; position:absolute; top:280px; width:232px;}
+
+.area-5 .map1 {left:30px;}
+.area-5 .map2 {left:385px;}
+.area-5 .map3 {left:736px;}
+
+.area-5 .topo {bottom:10px}

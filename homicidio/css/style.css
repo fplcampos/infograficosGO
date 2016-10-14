@@ -1,0 +1,408 @@
+/* 
+* Desenvolvimento: Felipe Campos
+* fplcampos@gmail.com
+* 2015-07-14
+*/
+
+body {background:url('../imagens/bg.jpg') no-repeat center top; min-height:4158px;}
+
+.wrap {margin:0 auto; overflow:hidden; position:relative; width:1000px;}
+
+h1 {background:url('../imagens/logo-govGO.jpg') no-repeat left top; display:block; height:93px; position:absolute; text-indent:-9999px; top:0; width:195px;}
+h1 a {display:block; height:100%; width:100%;}
+
+/*
+* AREA 1
+*/
+.area-1 {height:592px; min-height:592px; position:relative;}
+.area-1 .frase-top {background:url('../imagens/titArea-1.png') no-repeat left top; height:115px; left:145px; position:absolute; top:147px; width:714px}
+.titArea-12 {background:url('../imagens/titArea-12.png') no-repeat left top; height:30px; left:179px; position:absolute; top:280px; width:655px}
+.txtArea-1 {background:url('../imagens/txtArea-1.png') no-repeat left top; display:none; height:22px; left:398px; position:absolute; top:343px; width:111px}
+.txtPercentArea-1 {background:url('../imagens/txtPercentArea-1.png') no-repeat left top; display:none; height:124px; left:398px; position:absolute; top:382px; width:380px}
+.setaDownQueda {background:url('../imagens/setaDownArea-1.png') no-repeat left top; display:none; height:104px; left:320px; position:absolute; top:320px; width:45px;}
+.setaDown {background:url('../imagens/setaDown.png') no-repeat left top; cursor:pointer; display:none; height:40px; left:479px; position:absolute; top:522px; width:41px;}
+
+/*
+* AREA 2
+*/
+.area-2 {height:592px; min-height:592px; overflow:hidden; position:relative;}
+.titArea-2 {background:url('../imagens/titArea-2.png') no-repeat left top; display:none; height:92px; left:252px; position:absolute; top:49px; width:506px}
+.infoHomicidio {background:url('../imagens/infoHomicidio.png') no-repeat left top; display:none; height:114px; left:104px; position:absolute; top:244px; width:157px}
+.barraArea-2 {background:url('../imagens/barraArea-2.png') no-repeat left top; display:none; height:54px; left:286px; position:absolute; top:281px; width:291px}
+.txtArea-2 {background:url('../imagens/txtArea-2.png') no-repeat left top; display:none; height:57px; left:583px; position:absolute; top:313px; width:357px}
+.ladrao {background:url('../imagens/ladrao.png') no-repeat left top; bottom:-185px; height:180px; left:98px; position:absolute; width:160px;}
+.fraseFinal2 {background:url('../imagens/fraseFinal2.png') no-repeat left top; bottom:29px; display:none; height:39px; left:350px; position:absolute; width:600px;}
+
+/*
+* AREA 3
+*/
+.area-3 {height:592px; min-height:592px; overflow:hidden; position:relative;}
+.titArea-3 {background:url('../imagens/titArea-3.png') no-repeat left top; display:none; height:25px; left:289px; position:absolute; top:48px; width:419px;}
+
+.barra1 {background:url('../imagens/barra1.png') no-repeat left top; height:176px; left:255px;}
+.barra2 {background:url('../imagens/barra2.png') no-repeat left top; height:211px; left:367px;}
+.barra3 {background:url('../imagens/barra3.png') no-repeat left top; height:197px; left:479px;}
+.barra4 {background:url('../imagens/barra4.png') no-repeat left top; height:201px; left:591px;}
+.barra5 {background:url('../imagens/barra5.png') no-repeat left top; height:181px; left:701px;}
+
+.barra1,
+.barra2,
+.barra3,
+.barra4,
+.barra5 {bottom:231px; display:none; position:absolute; width:41px;}
+
+.baseGraph {background:url('../imagens/baseGraph.png') no-repeat left top; bottom:213px; display:none; height:5px; left:252px; position:absolute; width:494px;}
+
+.sem1 {background:url('../imagens/1sem.png') no-repeat left top; bottom:184px; display:none; height:17px; left:249px; position:absolute; width:49px;}
+.sem2 {background:url('../imagens/2sem.png') no-repeat left top; bottom:184px; display:none; height:17px; left:360px; position:absolute; width:50px;}
+
+.sem1.ano14 {left:473px;}
+.sem2.ano14 {left:581px;}
+
+.sem1.ano15 {left:694px;}
+
+.baseGraphAnos {background:url('../imagens/baseGraphAnos.png') no-repeat left top; bottom:110px; display:none; height:5px; left:251px; position:absolute; width:414px;}
+
+.ano13_ {background:url('../imagens/ano2013.png') no-repeat left top; bottom:104px; display:none; height:19px; left:300px; position:absolute; width:50px;}
+.circAno13 {bottom:68px; display:none; height:88px; left:282px; position:absolute; width:88px;}
+.circAno13 {
+	-webkit-animation-name: circAno13;
+	-webkit-animation-duration: 1000ms;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-name: circAno13;
+	-moz-animation-duration: 1000ms;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	-ms-animation-name: circAno13;
+	-ms-animation-duration: 1000ms;
+	-ms-animation-iteration-count: infinite;
+	-ms-animation-timing-function: linear;
+	
+	animation-name: circAno13;
+	animation-duration: 1000ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@-ms-keyframes circAno13 {
+	from { -ms-transform: rotate(0deg); }
+	to { -ms-transform: rotate(-360deg); }
+}
+@-moz-keyframes circAno13 {
+	from { -moz-transform: rotate(0deg); }
+	to { -moz-transform: rotate(-360deg); }
+}
+@-webkit-keyframes circAno13 {
+	from { -webkit-transform: rotate(0deg); }
+	to { -webkit-transform: rotate(-360deg); }
+}
+@keyframes circAno13 {
+	from {
+		transform:rotate(0deg);
+	}
+	to {
+		transform:rotate(-360deg);
+	}
+}
+
+.ano14_ {background:url('../imagens/ano2014.png') no-repeat left top; bottom:104px; display:none; height:19px; left:521px; position:absolute; width:51px;}
+.circAno14 {bottom:68px; display:none; height:88px; left:502px; position:absolute; width:88px;}
+.circAno14 {
+	-webkit-animation-name: circAno14;
+	-webkit-animation-duration: 1000ms;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-name: circAno14;
+	-moz-animation-duration: 1000ms;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	-ms-animation-name: circAno14;
+	-ms-animation-duration: 1000ms;
+	-ms-animation-iteration-count: infinite;
+	-ms-animation-timing-function: linear;
+	
+	animation-name: circAno14;
+	animation-duration: 1000ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@-ms-keyframes circAno14 {
+	from { -ms-transform: rotate(0deg); }
+	to { -ms-transform: rotate(360deg); }
+}
+@-moz-keyframes circAno14 {
+	from { -moz-transform: rotate(0deg); }
+	to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes circAno14 {
+	from { -webkit-transform: rotate(0deg); }
+	to { -webkit-transform: rotate(360deg); }
+}
+@keyframes circAno14 {
+	from {
+		transform:rotate(0deg);
+	}
+	to {
+		transform:rotate(360deg);
+	}
+}
+
+.ano15_ {background:url('../imagens/ano2015.png') no-repeat left top; bottom:104px; display:none; height:19px; left:696px; position:absolute; width:50px;}
+.circAno15 {bottom:68px; display:none; height:88px; left:676px; position:absolute; width:88px;}
+.circAno15 {
+	-webkit-animation-name: circAno15;
+	-webkit-animation-duration: 1000ms;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-name: circAno15;
+	-moz-animation-duration: 1000ms;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	-ms-animation-name: circAno15;
+	-ms-animation-duration: 1000ms;
+	-ms-animation-iteration-count: infinite;
+	-ms-animation-timing-function: linear;
+	
+	animation-name: circAno15;
+	animation-duration: 1000ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@-ms-keyframes circAno15 {
+	from { -ms-transform: rotate(0deg); }
+	to { -ms-transform: rotate(-360deg); }
+}
+@-moz-keyframes circAno15 {
+	from { -moz-transform: rotate(0deg); }
+	to { -moz-transform: rotate(-360deg); }
+}
+@-webkit-keyframes circAno15 {
+	from { -webkit-transform: rotate(0deg); }
+	to { -webkit-transform: rotate(-360deg); }
+}
+@keyframes circAno15 {
+	from {
+		transform:rotate(0deg);
+	}
+	to {
+		transform:rotate(-360deg);
+	}
+}
+
+.sirene {background:url('../imagens/sirene.png') no-repeat left top; bottom:0; display:none; height:52px; position:absolute; width:48px;}
+.sirene.left {left:45px}
+.sirene.right {right:32px}
+
+.sirene.left .flash {background:url('../imagens/reflexoSirene.png') no-repeat left top; bottom:35px; display:none; height:35px; left:-11px; position:absolute; width:71px;}
+.sirene.right .flash {background:url('../imagens/reflexoSirene.png') no-repeat left top; bottom:35px; display:none; height:35px; position:absolute; right:-11px; width:71px;}
+
+.sirene.left .flash {
+	-webkit-animation-name: blinker;
+	-webkit-animation-duration: 400ms;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	
+	-moz-animation-name: blinker;
+	-moz-animation-duration: 400ms;
+	-moz-animation-timing-function: linear;
+	-moz-animation-iteration-count: infinite;
+	
+	animation-name: blinker;
+	animation-duration: 400ms;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+@-moz-keyframes blinker {  
+	0% { opacity: 1.0; }
+	50% { opacity: 0.0; }
+	100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {  
+	0% { opacity: 1.0; }
+	50% { opacity: 0.0; }
+	100% { opacity: 1.0; }
+}
+
+@keyframes blinker {  
+	0% { opacity: 1.0; }
+	50% { opacity: 0.0; }
+	100% { opacity: 1.0; }
+}
+
+.sirene.right .flash {
+	-webkit-animation-name: blinker;
+	-webkit-animation-duration: 400ms;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	
+	-moz-animation-name: blinker;
+	-moz-animation-duration: 400ms;
+	-moz-animation-timing-function: linear;
+	-moz-animation-iteration-count: infinite;
+	
+	animation-name: blinker;
+	animation-duration: 400ms;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+@-moz-keyframes blinker {  
+	0% { opacity: 1.0; }
+	50% { opacity: 0.0; }
+	100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {  
+	0% { opacity: 1.0; }
+	50% { opacity: 0.0; }
+	100% { opacity: 1.0; }
+}
+
+@keyframes blinker {  
+	0% { opacity: 1.0; }
+	50% { opacity: 0.0; }
+	100% { opacity: 1.0; }
+}
+
+
+/*
+* AREA 4
+*/
+.area-4 {height:592px; min-height:592px; overflow:hidden; position:relative;}
+.titArea-4 {background:url('../imagens/titArea-4.png') no-repeat left top; display:none; height:25px; left:318px; position:absolute; top:51px; width:346px;}
+.info-41 {background:url('../imagens/infoArea-41.png') no-repeat left top; display:none; height:140px; left:75px; position:absolute; top:172px; width:181px;}
+.info-42 {background:url('../imagens/infoArea-42.png') no-repeat left top; display:none; height:141px; left:314px; position:absolute; top:211px; width:181px;}
+.barra-41,
+.barra-42 {background-color:#4274a4; bottom:166px; display:none; position:absolute; width:41px}
+.barra-41 {left:134px;}
+.barra-42 {left:374px;}
+
+.areaPercent {background-color:#4274a4; border-radius:140px; display:none; height:280px; max-height:280px; position:absolute; right:90px; top:152px; width:280px}
+.areaPercent .infoArea-43 {background:url('../imagens/infoArea-43.png') no-repeat left top; display:none; height:139px; position:absolute; right:36px; top:69px; width:199px;}
+
+.circArea4 {display:none; height:338px; position:absolute; right:61px; top:125px; width:338px;}
+.circArea4 {
+	-webkit-animation-name: circArea4;
+	-webkit-animation-duration: 25000ms;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	
+	-moz-animation-name: circArea4;
+	-moz-animation-duration: 25000ms;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	
+	-ms-animation-name: circArea4;
+	-ms-animation-duration: 25000ms;
+	-ms-animation-iteration-count: infinite;
+	-ms-animation-timing-function: linear;
+	
+	animation-name: circArea4;
+	animation-duration: 25000ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@-ms-keyframes circArea4 {
+	from { -ms-transform: rotate(0deg); }
+	to { -ms-transform: rotate(360deg); }
+}
+@-moz-keyframes circArea4 {
+	from { -moz-transform: rotate(0deg); }
+	to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes circArea4 {
+	from { -webkit-transform: rotate(0deg); }
+	to { -webkit-transform: rotate(360deg); }
+}
+@keyframes circArea4 {
+	from {
+		transform:rotate(0deg);
+	}
+	to {
+		transform:rotate(360deg);
+	}
+}
+
+.infoArea-44 {background:url('../imagens/infoArea-44.png') no-repeat left top; bottom:33px; display:none; height:48px; left:270px; position:absolute; width:485px;}
+
+/*
+* AREA 5
+*/
+.area-5 {height:592px; min-height:592px; overflow:hidden; position:relative;}
+.titArea-5 {background:url('../imagens/titArea-5.png') no-repeat left top; display:none; height:30px; left:103px; position:absolute; top:49px; width:791px;}
+.megafone {background:url('../imagens/megafone.png') no-repeat left top; display:none; height:114px; left:87px; position:absolute; top:334px; width:118px;}
+.megafoneSom {background:url('../imagens/megafoneSom.png') no-repeat left top; display:none; height:99px; left:184px; position:absolute; top:296px; width:63px;}
+
+.graphArea-5 {background:url('../imagens/graphArea-5.png') no-repeat left top; display:none; height:383px; left:370px; position:absolute; top:133px; width:440px;}
+
+.megafoneSom {
+	-webkit-animation-name: blinker2;
+	-webkit-animation-duration: 800ms;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	
+	-moz-animation-name: blinker2;
+	-moz-animation-duration: 800ms;
+	-moz-animation-timing-function: linear;
+	-moz-animation-iteration-count: infinite;
+	
+	animation-name: blinker2;
+	animation-duration: 800ms;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+@-moz-keyframes blinker2 {  
+	0% { opacity: 1.0; }
+	50% { opacity: 0.0; }
+	100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker2 {  
+	0% { opacity: 1.0; }
+	50% { opacity: 0.0; }
+	100% { opacity: 1.0; }
+}
+
+@keyframes blinker2 {  
+	0% { opacity: 1.0; }
+	50% { opacity: 0.0; }
+	100% { opacity: 1.0; }
+}
+
+/*
+* AREA 6
+*/
+.area-6 {height:592px; min-height:592px; overflow:hidden; position:relative;}
+.titArea-6 {background:url('../imagens/titArea-6.png') no-repeat left top; display:none; height:64px; left:189px; position:absolute; top:47px; width:621px;}
+
+.group1 {background:url('../imagens/group1.png') no-repeat left top; left:33px; width:160px;}
+.group2 {background:url('../imagens/group2.png') no-repeat left top; left:242px; width:146px;}
+.group3 {background:url('../imagens/group3.png') no-repeat left top; left:441px; width:146px;}
+.group4 {background:url('../imagens/group4.png') no-repeat left top; left:632px; width:151px;}
+.group5 {background:url('../imagens/group5.png') no-repeat left top; left:827px; width:146px;}
+
+.group1,
+.group2,
+.group3,
+.group4,
+.group5 {display:none; height:94px; position:absolute; top:219px;}
+
+.policeCar {background:url('../imagens/policeCar.png') no-repeat left top; bottom:141px; display:none; height:63px; left:-178px; position:absolute; width:177px;}
+.policeLine {background:url('../imagens/policeLine.png') no-repeat left top; bottom:129px; display:none; height:19px; left:31px; position:absolute; width:926px;}
+
+.txtArea-6 {background:url('../imagens/txtArea-6.png') no-repeat left top; bottom:24px; display:none; height:57px; left:146px; position:absolute; width:713px;}
+
+/*
+* AREA 7
+*/
+.area-7 {height:592px; min-height:592px; overflow:hidden; position:relative;}
+.titArea-7 {background:url('../imagens/titArea-7.png') no-repeat left top; display:none; height:37px; left:88px; position:absolute; top:47px; width:820px;}
+.graphArea7 {background:url('../imagens/group71.png') no-repeat left top; display:none; height:383px; left:262px; position:absolute; top:115px; width:440px;}
+.txtArea-7 {background:url('../imagens/txtArea-7.png') no-repeat left top; bottom:22px; display:none; height:18px; left:277px; position:absolute; width:397px;}

@@ -1,0 +1,152 @@
+/* 
+* Desenvolvimento: Felipe Campos
+* fplcampos@gmail.com
+* 2015-06-24
+*/
+
+body {background:url('../imagens/bg.jpg') no-repeat center top; min-height:2400px;}
+
+.wrap {margin:0 auto; overflow:hidden; position:relative; width:1000px;}
+
+h1 {background:url('../imagens/logo-govGO.jpg') no-repeat left top; display:block; height:93px; text-indent:-9999px; width:195px;}
+h1 a {display:block; height:100%; width:100%;}
+
+/*
+* AREA 1
+*/
+.area-1 {height:435px; min-height:435px; position:relative;}
+.area-1 .frase-top {background:url('../imagens/titArea-1.png') no-repeat left top; height:163px; margin:64px auto 0; position:relative; width:674px}
+.setaDown {background:url('../imagens/setaDown.png') no-repeat left top; display:none; height:104px; left:70px; position:absolute; top:200px; width:45px;}
+.setaDownQueda {background:url('../imagens/setaDown.png') no-repeat left top; display:none; height:104px; left:693px; position:absolute; top:200px; width:45px;}
+
+.percentualReducao {background:url('../imagens/percentualReducao.png') no-repeat left top; display:none; height:146px; left:149px; position:absolute; top:223px; width:212px;}
+.dadosPercentual {background:url('../imagens/dadosPercentual.png') no-repeat left top; display:none; height:116px; left:376px; position:absolute; top:259px; width:230px;}
+.percentualQueda {background:url('../imagens/percentualQueda.png') no-repeat left top; display:none; height:147px; left:762px; position:absolute; top:227px; width:163px;}
+
+/*
+* AREA 2
+*/
+.area-2 {height:592px; min-height:592px; overflow:hidden; position:relative;}
+.area-2 .frase-top {background:url('../imagens/titArea-2.png') no-repeat left top; display:none; height:93px; margin:51px auto 0; position:relative; width:372px}
+.titArea-22 {background:url('../imagens/titArea-22.png') no-repeat left top; display:none; height:51px; left:600px; position:absolute; top:192px; width:303px}
+.indiceMaio13 {background:url('../imagens/indiceMaio13.png') no-repeat left top; display:none; height:170px; left:143px; position:absolute; top:125px; width:171px; z-index:2;}
+.indiceMaio14 {background:url('../imagens/indiceMaio14.png') no-repeat left top; display:none; height:171px; left:400px; position:absolute; top:206px; width:171px; z-index:2;}
+.indiceMaio15 {background:url('../imagens/indiceMaio15.png') no-repeat left top; display:none; height:170px; left:653px; position:absolute; top:274px; width:171px; z-index:2;}
+.barraIndice {background:url('../imagens/barraIndices.png') no-repeat left top; display:none; height:156px; left:178px; position:absolute; top:187px; width:490px; z-index:1;}
+.maio13 {background:url('../imagens/maio13.png') no-repeat left top; left:167px; top:312px;}
+.maio14 {background:url('../imagens/maio14.png') no-repeat left top; left:424px; top:393px;}
+.maio15 {background:url('../imagens/maio15.png') no-repeat left top; left:677px; top:461px;}
+
+.maio13,
+.maio14,
+.maio15 {display:none; height:16px; position:absolute; width:123px;}
+
+.ladrao {background:url('../imagens/ladrao.png') no-repeat left top; bottom:-185px; height:184px; left:151px; position:absolute; width:142px;}
+
+/*
+* AREA 3
+*/
+.area-3 {background:#1f1e1f; height:592px; min-height:592px; overflow:hidden; position:relative;}
+.area-3 .frase-top {background:url('../imagens/titArea-3.png') no-repeat left top; display:none; height:93px; margin:69px auto 0; position:relative; width:371px}
+.indiceHomicidioInicial {background:url('../imagens/indiceHomicidioInicial.png') no-repeat left top; display:none; height:157px; left:110px; position:absolute; top:213px; width:272px;}
+.indiceHomicidioFinal {background:url('../imagens/indiceHomicidioFinal.png') no-repeat left top; display:none; height:157px; left:666px; position:absolute; top:287px; width:271px;}
+.barraIndice3 {background:url('../imagens/barraIndice3.png') no-repeat left top; display:none; height:85px; left:322px; position:absolute; top:254px; width:288px;}
+.fraseFinal3 {background:url('../imagens/fraseFinal3.png') no-repeat left top; bottom:-92px; display:none; height:48px; left:163px; position:absolute; width:663px;}
+.mask {background:url('../imagens/mask.png') repeat-x left top; height:86px; position:absolute; top:254px; right:411px; width:245px; z-index:10;}
+
+/*
+* AREA 4
+*/
+.area-4 {height:592px; min-height:592px; overflow:hidden; position:relative;}
+.area-4 .frase-top {background:url('../imagens/titArea-4.png') no-repeat left top; display:none; height:93px; margin:51px auto 0; position:relative; width:460px}
+.algema {background:url('../imagens/algemas.png') no-repeat left top; display:none; height:100px; left:415px; position:absolute; top:312px; width:165px}
+
+.indiceArea-41 {background:url('../imagens/indiceArea-41.png') no-repeat left top; left:110px; top:285px;}
+.indiceArea-42 {background:url('../imagens/indiceArea-42.png') no-repeat left top; left:666px; top:285px;}
+
+.indiceArea-41,
+.indiceArea-42 {display:none; height:136px; position:absolute; width:247px}
+
+.circArea4 {display:none; height:377px; left:20px; position:absolute; top:172px; width:377px;}
+.circArea4 {
+	-webkit-animation-name: spin;
+	-webkit-animation-duration: 25000ms;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-name: spin;
+	-moz-animation-duration: 25000ms;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	-ms-animation-name: spin;
+	-ms-animation-duration: 25000ms;
+	-ms-animation-iteration-count: infinite;
+	-ms-animation-timing-function: linear;
+	
+	animation-name: spin;
+	animation-duration: 25000ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@-ms-keyframes spin {
+	from { -ms-transform: rotate(0deg); }
+	to { -ms-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+	from { -moz-transform: rotate(0deg); }
+	to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+	from { -webkit-transform: rotate(0deg); }
+	to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+	from {
+		transform:rotate(0deg);
+	}
+	to {
+		transform:rotate(360deg);
+	}
+}
+
+.circArea42 {display:none; height:377px; left:595px; position:absolute; top:172px; width:377px;}
+.circArea42 {
+	-webkit-animation-name: spin2;
+	-webkit-animation-duration: 25000ms;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-name: spin2;
+	-moz-animation-duration: 25000ms;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	-ms-animation-name: spin2;
+	-ms-animation-duration: 25000ms;
+	-ms-animation-iteration-count: infinite;
+	-ms-animation-timing-function: linear;
+	
+	animation-name: spin2;
+	animation-duration: 25000ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@-ms-keyframes spin2 {
+	from { -ms-transform: rotate(0deg); }
+	to { -ms-transform: rotate(-360deg); }
+}
+@-moz-keyframes spin2 {
+	from { -moz-transform: rotate(0deg); }
+	to { -moz-transform: rotate(-360deg); }
+}
+@-webkit-keyframes spin2 {
+	from { -webkit-transform: rotate(0deg); }
+	to { -webkit-transform: rotate(-360deg); }
+}
+@keyframes spin2 {
+	from {
+		transform:rotate(0deg);
+	}
+	to {
+		transform:rotate(-360deg);
+	}
+}

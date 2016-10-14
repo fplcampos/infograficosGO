@@ -1,0 +1,145 @@
+/* 
+* Desenvolvimento: Felipe Campos
+* fplcampos@gmail.com
+* 2015-11-09
+*/
+
+body {background:url('../imagens/bg.jpg') no-repeat center top; min-height:3581px;}
+
+.container {margin:0 auto; width:1263px;}
+
+.wrap {margin:0 auto; min-height:592px; overflow:hidden; position:relative; width:1000px;}
+
+h1 {background:url('../imagens/logo-govGO.jpg') no-repeat left top; display:inline-block; height:93px; position:absolute; text-indent:-9999px; top:0; width:195px;}
+h1 a {display:block; height:100%; width:100%;}
+
+/*
+* AREA 1
+*/
+.area-1 {height:592px; min-height:592px; position:relative;}
+.area-1 .titArea-1 {background:url('../imagens/titArea-1.png') no-repeat left top; display:inline-block; height:143px; left:214px; position:absolute; text-indent:-9999px; top:208px; width:579px;}
+.area-1 .titArea-12 {background:url('../imagens/titArea-12.png') no-repeat left top; display:inline-block; height:51px; left:174px; position:absolute; text-indent:-9999px; top:435px; width:642px;}
+.area-1 .seta {background:url('../imagens/seta.png') no-repeat left top; display:inline-block; bottom:30px; cursor:pointer; height:40px; left:479px; position:absolute; text-indent:-9999px; width:41px;}
+
+/*
+* AREA 2
+*/
+.area-2 {height:592px; min-height:592px; position:relative;}
+.area-2 .titArea-2 {background:url('../imagens/titArea-2.png') no-repeat left top; display:none; height:77px; left:171px; position:absolute; text-indent:-9999px; top:58px; width:649px}
+.area-2 .titArea-21 {background:url('../imagens/titArea-21.png') no-repeat left top; display:none; height:20px; left:253px; position:absolute; text-indent:-9999px; top:158px; width:477px}
+.area-2 .titArea-22 {background:url('../imagens/titArea-22.png') no-repeat left top; display:none; height:75px; left:211px; position:absolute; text-indent:-9999px; top:251px; width:216px}
+.area-2 .titArea-23 {background:url('../imagens/titArea-23.png') no-repeat left top; display:none; height:81px; position:absolute; right:179px; text-indent:-9999px; top:246px; width:266px}
+
+.area-2 .fundoBatida {background:url('../imagens/fundoBatida.png') no-repeat left top; bottom:48px; display:none; height:154px; overflow:hidden; position:absolute; width:969px; z-index:10;}
+.area-2 .circ {background:url('../imagens/circ2.png') no-repeat left top; bottom:65px; display:none; height:150px; left:360px; overflow:hidden; position:absolute; width:150px; z-index:8;}
+.area-2 .ondaChoque {background:url('../imagens/ondaChoque.png') no-repeat left top; bottom:47px; display:none; height:94px; left:405px; overflow:hidden; position:absolute; width:98px; z-index:11;}
+.area-2 .carro1 {background:url('../imagens/carro1.png') no-repeat left top; bottom:77px; display:block; height:91px; left:-225px; overflow:hidden; position:absolute; width:225px; z-index:12;}
+.area-2 .carro2 {background:url('../imagens/carro2.png') no-repeat left top; bottom:78px; display:block; height:109px; overflow:hidden; position:absolute; right:-170px; width:169px; z-index:12;}
+
+.area-2 .circ {
+	-webkit-animation:circ 20s linear infinite;
+	-moz-animation:circ 20s linear infinite;
+	animation:circ 20s linear infinite;
+}
+
+@-moz-keyframes circ { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes circ { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes circ { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.area-2 .ondaChoque {
+	-webkit-animation-name: scalex;
+	-webkit-animation-duration:3s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:ease-in-out;
+	-moz-animation-name: scale;
+	-moz-animation-duration:3s;
+	-moz-animation-iteration-count:infinite;
+	-moz-animation-timing-function:ease-in-out;
+	animation-name: scale;
+	animation-duration:3s;
+	animation-iteration-count:infinite;
+	animation-timing-function:ease-in-out;
+}
+
+@-webkit-keyframes scalex{
+	from {-webkit-transform: scale(1.0);}
+	65% {-webkit-transform: scale(0.9);}
+	to {-webkit-transform: scale(1.0);}
+}
+	
+@-moz-keyframes scale{
+	from {-moz-transform: scale(1.0);}
+	65% {-moz-transform: scale(0.9);}
+	to {-moz-transform: scale(1.0);}
+}
+
+@keyframes scale{
+	from {transform: scale(1.0);}
+	65% {transform: scale(0.9);}
+	to {transform: scale(1.0);}
+}
+
+/*
+* AREA 3
+*/
+.area-3 {height:592px; min-height:592px; position:relative;}
+.area-3 .titArea-3 {background:url('../imagens/titArea-3.png') no-repeat left top; display:none; height:32px; left:117px; position:absolute; text-indent:-9999px; top:85px; width:764px}
+.area-3 .titArea-31 {background:url('../imagens/titArea-31.png') no-repeat left top; display:none; height:37px; left:336px; position:absolute; text-indent:-9999px; top:143px; width:326px}
+.area-3 .infoArea-3 {background:url('../imagens/infoArea-3.png') no-repeat left top; display:none; height:129px; left:30px; position:absolute; text-indent:-9999px; top:316px; width:305px}
+.area-3 .dotsArea-3 {background:url('../imagens/dotsArea-3.png') no-repeat left top; display:none; height:11px; left:409px; position:absolute; top:363px; width:276px}
+.area-3 .bebado {background:url('../imagens/bebado.png') no-repeat left top; display:none; height:261px; position:absolute; right:0; top:227px; width:226px}
+
+/*
+* AREA 4
+*/
+.area-4 {height:592px; min-height:592px; position:relative;}
+.area-4 .titArea-4 {background:url('../imagens/titArea-4.png') no-repeat left top; display:none; height:51px; left:223px; position:absolute; text-indent:-9999px; top:62px; width:551px}
+.area-4 .titArea-41 {background:url('../imagens/titArea-41.png') no-repeat left top; display:none; height:31px; left:193px; position:absolute; text-indent:-9999px; top:143px; width:613px}
+.area-4 .infoArea-4 {background:url('../imagens/infoArea-4.png') no-repeat left top; display:none; height:156px; left:63px; position:absolute; text-indent:-9999px; top:275px; width:233px}
+.area-4 .infoArea-41 {background:url('../imagens/infoArea-41.png') no-repeat left top; display:none; height:154px; position:absolute; right:68px; text-indent:-9999px; top:354px; width:150px}
+.area-4 .dotsArea-4 {background:url('../imagens/dotsArea-4.png') no-repeat left top; display:none; height:74px; left:328px; position:absolute; top:344px; width:398px}
+
+/*
+* AREA 5
+*/
+.area-5 {height:592px; min-height:592px; position:relative;}
+.area-5 .titArea-5 {background:url('../imagens/titArea-5.png') no-repeat left top; display:none; left:381px; height:63px; position:absolute; text-indent:-9999px; top:60px; width:236px}
+.area-5 .titArea-51 {background:url('../imagens/titArea-51.png') no-repeat left top; display:none; left:251px; height:25px; position:absolute; text-indent:-9999px; top:139px; width:494px}
+.area-5 .infoArea-5 {background:url('../imagens/infoArea-5.png') no-repeat left top; display:none; left:30px; height:69px; position:absolute; text-indent:-9999px; top:259px; width:388px}
+.area-5 .pipeArea-5 {background:url('../imagens/pipeArea-5.png') no-repeat left top; display:none; left:507px; height:64px; position:absolute; top:262px; width:5px}
+.area-5 .infoArea-51 {background:url('../imagens/infoArea-51.png') no-repeat left top; display:none; height:67px; position:absolute; right:0; text-indent:-9999px; top:259px; width:405px}
+.area-5 .linhaArea-5 {background:url('../imagens/linhaArea-5.png') no-repeat left top; bottom:77px; display:none; left:30px; height:19px; position:absolute; width:926px}
+.area-5 .carroPolicia,
+.area-5 .carroPolicia1 {background:url('../imagens/carroPolicia.png') no-repeat left top; display:block; left:-178px; height:63px; position:absolute; top:439px; width:177px}
+.area-5 .carroEsporte {background:url('../imagens/carroEsporte.png') no-repeat left top; display:block; left:-178px; height:64px; position:absolute; top:439px; width:158px}
+
+/*
+* AREA 6
+*/
+.area-6 {height:592px; min-height:592px; position:relative;}
+.area-6 .titArea-6 {background:url('../imagens/titArea-6.png') no-repeat left top; display:none; left:309px; height:86px; position:absolute; text-indent:-9999px; top:58px; width:367px}
+.area-6 .circ6 {background:url('../imagens/circ6.png') no-repeat left top; display:none; left:30px; height:338px; position:absolute; top:169px; width:338px}
+.area-6 .circ61 {background:url('../imagens/circ6.png') no-repeat left top; display:none; height:338px; position:absolute; right:0; top:169px; width:338px}
+.area-6 .infoArea-6 {background:url('../imagens/infoArea-6.png') no-repeat left top; display:none; left:83px; height:121px; position:absolute; text-indent:-9999px; top:300px; width:246px}
+.area-6 .infoArea-61 {background:url('../imagens/infoArea-61.png') no-repeat left top; display:none; height:121px; position:absolute; right:64px; text-indent:-9999px; top:300px; width:199px}
+.area-6 .copsArea-6 {background:url('../imagens/copsArea-6.png') no-repeat left top; bottom:0; display:none; left:424px; height:274px; position:absolute; width:183px}
+
+.area-6 .circ6 {
+	-webkit-animation:spin 20s linear infinite;
+	-moz-animation:spin 20s linear infinite;
+	animation:spin 20s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.area-6 .circ61 {
+	-webkit-animation:spin1 20s linear infinite;
+	-moz-animation:spin1 20s linear infinite;
+	animation:spin1 20s linear infinite;
+}
+
+@-moz-keyframes spin1 { 100% { -moz-transform: rotate(-360deg); } }
+@-webkit-keyframes spin1 { 100% { -webkit-transform: rotate(-360deg); } }
+@keyframes spin1 { 100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); } }

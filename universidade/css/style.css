@@ -1,0 +1,154 @@
+/* 
+* Desenvolvimento: Felipe Campos
+* fplcampos@gmail.com
+* 2015-09-21
+*/
+
+body {background:url('../imagens/bg.jpg') no-repeat center top; min-height:2991px;}
+
+.wrap {margin:0 auto; overflow:hidden; position:relative; width:1000px;}
+
+h1 {background:url('../imagens/logo-govGO.jpg') no-repeat left top; display:inline-block; height:93px; position:absolute; text-indent:-9999px; top:0; width:195px;}
+h1 a {display:block; height:100%; width:100%;}
+
+/*
+* AREA 1
+*/
+.area-1 {min-height:592px; position:relative;}
+.area-1 .titArea-1 {background:url('../imagens/titArea-1.png') no-repeat left top; display:inline-block; height:85px; left:84px; position:absolute; text-indent:-9999px; top:321px; width:831px;}
+.area-1 .seta {background:url('../imagens/seta.png') no-repeat left top; display:inline-block; bottom:30px; cursor:pointer; height:40px; left:479px; position:absolute; text-indent:-9999px; width:41px;}
+
+/*
+* AREA 2
+*/
+.area-2 {min-height:592px; position:relative;}
+.titArea-2 {background:url('../imagens/titArea-2.png') no-repeat left top; display:none; height:75px; left:138px; position:absolute; text-indent:-9999px; top:40px; width:722px;}
+.circArea-2 {display:none; height:248px; left:392px; position:absolute; top:149px; width:248px;}
+.circArea-2 {
+	-webkit-animation-name: circArea2;
+	-webkit-animation-duration: 1000ms;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-name: circArea2;
+	-moz-animation-duration: 1000ms;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	-ms-animation-name: circArea2;
+	-ms-animation-duration: 1000ms;
+	-ms-animation-iteration-count: infinite;
+	-ms-animation-timing-function: linear;
+	
+	animation-name: circArea2;
+	animation-duration: 1000ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@-ms-keyframes circArea2 {
+	from { -ms-transform: rotate(0deg); }
+	to { -ms-transform: rotate(-360deg); }
+}
+@-moz-keyframes circArea2 {
+	from { -moz-transform: rotate(0deg); }
+	to { -moz-transform: rotate(-360deg); }
+}
+@-webkit-keyframes circArea2 {
+	from { -webkit-transform: rotate(0deg); }
+	to { -webkit-transform: rotate(-360deg); }
+}
+@keyframes circArea2 {
+	from {
+		transform:rotate(0deg);
+	}
+	to {
+		transform:rotate(-360deg);
+	}
+}
+.imgCirc-2 {background:url('../imagens/imgCirc-2.png') no-repeat left top; display:none; height:211px; left:411px; position:absolute; text-indent:-9999px; top:168px; width:211px;}
+.arte-2 {background:url('../imagens/arte-2.png') no-repeat left top; bottom:38px; display:none; height:116px; left:28px; position:absolute; text-indent:-9999px; width:972px;}
+.titArea-21 {background:url('../imagens/titArea-21.png') no-repeat left top; display:none; height:84px; left:326px; position:absolute; text-indent:-9999px; top:437px; width:388px;}
+.foguete {background:url('../imagens/foguete.png') no-repeat left top; display:none; height:101px; position:absolute; right:23px; text-indent:-9999px; top:350px; width:57px;}
+
+.floating {
+	-webkit-animation-name: Floatingx;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: ease-in-out;
+	-moz-animation-name: Floating;
+	-moz-animation-duration: 3s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: ease-in-out;
+	animation-name: Floating;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes Floatingx {
+	from {-webkit-transform:translate(0, 0px);}
+	65% {-webkit-transform:translate(0, -10px);}
+	to {-webkit-transform: translate(0, 0px);}
+}
+	
+@-moz-keyframes Floating {
+	from {-moz-transform:translate(0, 0px);}
+	65% {-moz-transform:translate(0, -10px);}
+	to {-moz-transform: translate(0, 0px);}
+}
+
+@keyframes Floating {
+	from {transform:translate(0, 0px);}
+	65% {transform:translate(0, -10px);}
+	to {transform: translate(0, 0px);}
+}
+
+/*
+* AREA 3
+*/
+.area-3 {min-height:592px; position:relative;}
+.titArea-3 {background:url('../imagens/titArea-3.png') no-repeat left top; display:none; height:42px; left:458px; position:absolute; text-indent:-9999px; top:57px; width:99px;}
+.titArea-31 {background:url('../imagens/titArea-31.png') no-repeat left top; display:none; height:55px; left:96px; position:absolute; text-indent:-9999px; top:144px; width:784px;}
+.arteArea-3 {background:url('../imagens/arteArea-3.png') no-repeat left top; display:none; bottom:0; height:285px; left:97px; position:absolute; text-indent:-9999px; width:178px;}
+.luminaria {background:url('../imagens/luminaria.png') no-repeat left top; display:none; bottom:179px; height:166px; left:538px; position:absolute; text-indent:-9999px; width:110px;}
+.luminosidade {background:url('../imagens/luminosidade.png') no-repeat left top; display:none; height:181px; left:629px; position:absolute; text-indent:-9999px; top:262px; width:323px;}
+.titArea-32 {background:url('../imagens/titArea-32.png') no-repeat left top; bottom:66px; display:none; height:75px; position:absolute; right:1px; text-indent:-9999px; width:576px;}
+
+/*
+* AREA 4
+*/
+.area-4 {min-height:592px; position:relative;}
+.titArea-4 {background:url('../imagens/titArea-4.png') no-repeat left top; display:none; height:43px; left:105px; position:absolute; text-indent:-9999px; top:69px; width:784px;}
+.titArea-41 {background:url('../imagens/titArea-41.png') no-repeat left top; display:none; height:31px; left:319px; position:absolute; text-indent:-9999px; top:129px; width:360px;}
+.arteArea-41 {background:url('../imagens/arteArea-41.png') no-repeat left top; display:none; height:141px; left:112px; position:absolute; text-indent:-9999px; top:240px; width:137px;}
+.arteArea-42 {background:url('../imagens/arteArea-42.png') no-repeat left top; display:none; height:146px; left:445px; position:absolute; text-indent:-9999px; top:240px; width:142px;}
+.arteArea-43 {background:url('../imagens/arteArea-43.png') no-repeat left top; display:none; height:149px; left:740px; position:absolute; text-indent:-9999px; top:240px; width:128px;}
+.divisaoArea-4 {background:url('../imagens/divisaoArea-4.png') no-repeat left top; display:none; height:93px; position:absolute; text-indent:-9999px; top:244px; width:5px;}
+.divisaoArea-4.div1 {left:349px;}
+.divisaoArea-4.div2 {left:652px;}
+.decorArea-41 {background:url('../imagens/decorArea-41.png') no-repeat left top; left:187px;}
+.decorArea-42 {background:url('../imagens/decorArea-42.png') no-repeat left top; right:184px;}
+.decorArea-41,
+.decorArea-42 {bottom:99px; display:none; height:83px; position:absolute; text-indent:-9999px; top:411px; width:197px;}
+
+.imgFormado {background:url('../imagens/imgFormado.png') no-repeat left top; bottom:55px; display:none; height:89px; left:421px; position:absolute; text-indent:-9999px; width:157px;}
+
+/*
+* AREA 5
+*/
+.area-5 {min-height:592px; position:relative;}
+.titArea-5 {background:url('../imagens/titArea-5.png') no-repeat left top; display:none; height:121px; left:30px; position:absolute; text-indent:-9999px; top:71px; width:909px;}
+.titCidade1 {background:url('../imagens/spriteCidades.png') no-repeat -38px -257px; display:none; height:24px; left:68px; position:absolute; text-indent:-9999px; top:266px; width:113px;}
+.mapaCidade1 {background:url('../imagens/spriteCidades.png') no-repeat 0 -310px; display:none; height:185px; left:30px; position:absolute; text-indent:-9999px; top:319px; width:185px;}
+.mapaCidade1:hover {background:url('../imagens/spriteCidades.png') no-repeat left top; cursor:pointer; height:185px; width:185px;}
+
+.titCidade2 {background:url('../imagens/spriteCidades.png') no-repeat -311px -261px; display:none; height:19px; left:341px; position:absolute; text-indent:-9999px; top:270px; width:85px;}
+.mapaCidade2 {background:url('../imagens/spriteCidades.png') no-repeat -263px -310px; display:none; height:185px; left:293px; position:absolute; text-indent:-9999px; top:319px; width:185px;}
+.mapaCidade2:hover {background:url('../imagens/spriteCidades.png') no-repeat -263px top; cursor:pointer; height:185px; width:185px;}
+
+.titCidade3 {background:url('../imagens/spriteCidades.png') no-repeat -550px -261px; display:none; height:20px; left:580px; position:absolute; text-indent:-9999px; top:270px; width:138px;}
+.mapaCidade3 {background:url('../imagens/spriteCidades.png') no-repeat -523px -310px; display:none; height:185px; left:553px; position:absolute; text-indent:-9999px; top:319px; width:185px;}
+.mapaCidade3:hover {background:url('../imagens/spriteCidades.png') no-repeat -523px top; cursor:pointer; height:185px; width:185px;}
+
+.titCidade4 {background:url('../imagens/spriteCidades.png') no-repeat -800px -242px; display:none; height:49px; left:830px; position:absolute; text-indent:-9999px; top:251px; width:166px;}
+.mapaCidade4 {background:url('../imagens/spriteCidades.png') no-repeat -783px -310px; display:none; height:185px; left:813px; position:absolute; text-indent:-9999px; top:319px; width:185px;}
+.mapaCidade4:hover {background:url('../imagens/spriteCidades.png') no-repeat -783px top; cursor:pointer; height:185px; width:185px;}

@@ -1,0 +1,104 @@
+/* 
+* Desenvolvimento: Felipe Campos
+* fplcampos@gmail.com
+* 2015-10-13
+*/
+
+body {background:url('../imagens/bg.jpg') no-repeat center top; min-height:3581px;}
+
+.container {margin:0 auto; width:1263px;}
+
+.wrap {margin:0 auto; min-height:592px; overflow:hidden; position:relative; width:1000px;}
+
+h1 {background:url('../imagens/logo-govGO.jpg') no-repeat left top; display:inline-block; height:93px; position:absolute; text-indent:-9999px; top:0; width:195px;}
+h1 a {display:block; height:100%; width:100%;}
+
+/*
+* AREA 1
+*/
+.area-1 {min-height:592px; position:relative;}
+.area-1 .titArea-1 {background:url('../imagens/titArea-1.png') no-repeat left top; display:inline-block; height:52px; left:294px; position:absolute; text-indent:-9999px; top:262px; width:420px;}
+.area-1 .seta {background:url('../imagens/seta.png') no-repeat left top; display:inline-block; bottom:30px; cursor:pointer; height:40px; left:479px; position:absolute; text-indent:-9999px; width:41px;}
+
+/*
+* AREA 2
+*/
+.area-2 {min-height:592px; position:relative;}
+.titArea-2 {background:url('../imagens/titArea-2.png') no-repeat left top; display:none; height:63px; left:212px; position:absolute; text-indent:-9999px; top:47px; width:575px;}
+.balao2 {background:url('../imagens/balaoArea-2.png') no-repeat left top; display:none; height:186px; left:14px; position:absolute; text-indent:-9999px; top:157px; width:342px;}
+.balao21 {background:url('../imagens/balaoArea-21.png') no-repeat left top; display:none; height:216px; position:absolute; right:27px; text-indent:-9999px; top:128px; width:326px;}
+.dots {background:url('../imagens/dots.png') no-repeat left top; bottom:242px; display:none; height:16px; left:0px; position:absolute; width:1260px; z-index:-1;}
+.infoArea-2 {background:url('../imagens/infoArea-2.png') no-repeat left top; bottom:55px; display:none; height:137px; left:118px; position:absolute; text-indent:-9999px; width:761px;}
+
+/*
+* AREA 3
+*/
+.area-3 {min-height:592px; position:relative;}
+.titArea-3 {background:url('../imagens/titArea-3.png') no-repeat left top; display:none; height:42px; left:284px; position:absolute; text-indent:-9999px; top:57px; width:431px;}
+.infoArea-31,
+.infoArea-32,
+.infoArea-33,
+.infoArea-34,
+.infoArea-35,
+.infoArea-36,
+.infoArea-37 {display:none; height:200px; position:absolute; text-indent:-9999px;}
+
+.infoArea-31 {background:url('../imagens/infoArea-31.png') no-repeat left top; left:104px; top:130px; width:156px;}
+.infoArea-32 {background:url('../imagens/infoArea-32.png') no-repeat left top; left:280px; top:356px; width:132px;}
+.infoArea-33 {background:url('../imagens/infoArea-33.png') no-repeat left top; height:224px; left:395px; top:130px; width:193px;}
+.infoArea-34 {background:url('../imagens/infoArea-34.png') no-repeat left top; left:591px; top:356px; width:127px;}
+.infoArea-35 {background:url('../imagens/infoArea-35.png') no-repeat left top; left:739px; top:130px; width:127px;}
+.infoArea-36 {background:url('../imagens/infoArea-36.png') no-repeat left top; left:889px; top:356px; width:138px;}
+.infoArea-37 {background:url('../imagens/infoArea-37.png') no-repeat left top; left:1049px; top:130px; width:127px;}
+
+/*
+* AREA 4
+*/
+.area-4 {min-height:592px; position:relative;}
+.infoArea-41 {background:url('../imagens/infoArea-41.png') no-repeat left top; display:none; height:82px; left:84px; position:absolute; text-indent:-9999px; top:63px; width:250px;}
+.infoArea-42 {background:url('../imagens/infoArea-42.png') no-repeat left top; display:none; height:106px; left:286px; position:absolute; text-indent:-9999px; top:114px; width:229px;}
+.infoArea-43 {background:url('../imagens/infoArea-43.png') no-repeat left top; display:none; height:63px; left:362px; position:absolute; text-indent:-9999px; top:231px; width:242px;}
+.arteArea-41 {background:url('../imagens/arteArea-41.png') no-repeat left top; display:none; height:379px; left:75px; position:absolute; top:174px; width:434px;}
+
+.barra {background:url('../imagens/barra.png') no-repeat left top; display:none; height:503px; left:521px; position:absolute; text-indent:-9999px; top:47px; width:4px;}
+
+.infoArea-44 {background:url('../imagens/infoArea-44.png') no-repeat left top; display:none; height:195px; left:554px; position:absolute; text-indent:-9999px; top:66px; width:394px;}
+.infoArea-45 {background:url('../imagens/infoArea-45.png') no-repeat left top; display:none; height:106px; left:554px; position:absolute; text-indent:-9999px; top:272px; width:183px;}
+.arteArea-42 {background:url('../imagens/arteArea-42.png') no-repeat left top; display:none; height:349px; left:804px; position:absolute; top:216px; width:432px;}
+
+/*
+* AREA 5
+*/
+.area-5 {min-height:592px; position:relative;}
+.infoArea-51 {background:url('../imagens/infoArea-51.png') no-repeat left top; display:none; height:109px; left:70px; position:absolute; text-indent:-9999px; top:56px; width:349px;}
+.infoArea-52 {background:url('../imagens/infoArea-52.png') no-repeat left top; display:none; height:319px; left:70px; position:absolute; text-indent:-9999px; top:189px; width:423px;}
+.bgArea-5 {background:url('../imagens/bgArea-5.jpg') no-repeat left top; display:none; height:592px; position:absolute; right:0px; top:0px; width:553px;}
+
+/*
+* AREA 6
+*/
+.area-6 {min-height:592px; position:relative;}
+.mapa {background:url('../imagens/mapa.png') no-repeat left top; display:none; height:504px; left:38px; position:absolute; top:58px; width:484px;}
+.linha {background:url('../imagens/linha.png') no-repeat left top; display:none; height:200px; left:286px; position:absolute; top:89px; width:267px;}
+.infoArea-61 {background:url('../imagens/infoArea-61.png') no-repeat left top; display:none; height:119px; left:558px; position:absolute; text-indent:-9999px; top:75px; width:637px;}
+.infoArea-62 {background:url('../imagens/infoArea-62.png') no-repeat left top; display:none; height:72px; left:654px; position:absolute; text-indent:-9999px; top:281px; width:494px;}
+
+.modalidade1,
+.modalidade2,
+.modalidade3,
+.modalidade4 {display:none; height:128px; position:absolute; top:381px; width:128px;}
+
+.modalidade1 {background:url('../imagens/icoFisica.png') no-repeat left top; left:577px;}
+.modalidade2 {background:url('../imagens/icoAuditiva.png') no-repeat left top; left:746px;}
+.modalidade3 {background:url('../imagens/icoVisual.png') no-repeat left top; left:917px;}
+.modalidade4 {background:url('../imagens/icoIntelectual.png') no-repeat left top; left:1087px;}
+
+.titModalidade1,
+.titModalidade2,
+.titModalidade3,
+.titModalidade4 {display:none; height:25px; position:absolute; top:531px;}
+
+.titModalidade1 {background:url('../imagens/titFisica.png') no-repeat left top; left:605px; width:74px;}
+.titModalidade2 {background:url('../imagens/titAuditiva.png') no-repeat left top; left:753px; width:117px;}
+.titModalidade3 {background:url('../imagens/titVisual.png') no-repeat left top; left:939px; width:84px;}
+.titModalidade4 {background:url('../imagens/titIntelectual.png') no-repeat left top; left:1077px; width:151px;}

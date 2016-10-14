@@ -1,0 +1,115 @@
+/* 
+* Desenvolvimento: Felipe Campos
+* fplcampos@gmail.com
+* 2015-11-10
+*/
+
+body {background:url('../imagens/bg.jpg') no-repeat center top; min-height:3581px;}
+
+.container {margin:0 auto; width:1263px;}
+
+.wrap {margin:0 auto; min-height:592px; overflow:hidden; position:relative; width:1000px;}
+
+h1 {background:url('../imagens/logo-govGO.jpg') no-repeat left top; display:inline-block; height:93px; position:absolute; text-indent:-9999px; top:0; width:195px;}
+h1 a {display:block; height:100%; width:100%;}
+
+.area-1,
+.area-2,
+.area-3,
+.area-4,
+.area-5,
+.area-6 {min-height:592px; position:relative;}
+
+/*
+* AREA 1
+*/
+.area-1 .titArea-1 {background:url('../imagens/titArea-1.png') no-repeat left top; display:inline-block; height:175px; left:51px; position:absolute; text-indent:-9999px; top:227px; width:887px;}
+.area-1 .seta {background:url('../imagens/seta.png') no-repeat left top; display:inline-block; bottom:30px; cursor:pointer; height:40px; left:479px; position:absolute; text-indent:-9999px; width:41px;}
+
+/*
+* AREA 2
+*/
+.titArea-2 {background:url('../imagens/titArea-2.png') no-repeat left top; display:none; height:42px; left:354px; position:absolute; text-indent:-9999px; top:62px; width:292px;}
+.titArea-21 {background:url('../imagens/titArea-21.png') no-repeat left top; display:none; height:65px; left:108px; position:absolute; text-indent:-9999px; top:136px; width:783px;}
+.arteArea-2 {background:url('../imagens/arteArea-2.png') no-repeat left top; display:none; height:265px; left:143px; position:absolute; top:267px; width:367px;}
+.titArea-22 {background:url('../imagens/titArea-22.png') no-repeat left top; display:none; height:22px; left:392px; position:absolute; text-indent:-9999px; top:290px; width:272px; z-index:2;}
+.titArea-23 {background:url('../imagens/titArea-23.png') no-repeat left top; display:none; height:72px; left:392px; position:absolute; text-indent:-9999px; top:325px; width:540px; z-index:2;}
+.titArea-24 {background:url('../imagens/titArea-24.png') no-repeat left top; display:none; height:47px; left:392px; position:absolute; text-indent:-9999px; top:410px; width:460px; z-index:2;}
+
+/*
+* AREA 3
+*/
+.titArea-3 {background:url('../imagens/titArea-3.png') no-repeat left top; display:none; height:79px; left:123px; position:absolute; text-indent:-9999px; top:69px; width:751px;}
+.infoArea-3 {background:url('../imagens/infoArea-3.png') no-repeat left top; display:none; height:75px; left:193px; position:absolute; text-indent:-9999px; top:244px; width:283px;}
+.titArea-31 {background:url('../imagens/titArea-31.png') no-repeat left top; display:none; height:31px; left:512px; position:absolute; text-indent:-9999px; top:252px; width:120px;}
+.titArea-32 {background:url('../imagens/titArea-32.png') no-repeat left top; display:none; height:17px; left:512px; position:absolute; text-indent:-9999px; top:293px; width:306px;}
+.baseBairro {background:url('../imagens/baseBairro.png') no-repeat left top; display:none; height:97px; left:0; position:absolute; top:433px; width:968px;}
+.casa,
+.casa2,
+.casa3,
+.casa4,
+.casa5,
+.casa6,
+.casa7,
+.casa8 {background:url('../imagens/casa.png') no-repeat left top; display:none; height:95px; position:absolute; top:421px; width:96px;}
+.casa {left:100px;}
+.casa2 {left:198px;}
+.casa3 {left:296px;}
+.casa4 {left:394px;}
+.casa5 {left:492px;}
+.casa6 {left:590px;}
+.casa7 {left:688px;}
+.casa8 {left:786px;}
+
+/*
+* AREA 4
+*/
+.titArea-4 {background:url('../imagens/titArea-4.png') no-repeat left top; display:none; height:118px; left:201px; position:absolute; text-indent:-9999px; top:53px; width:595px;}
+.titArea-41 {background:url('../imagens/titArea-41.png') no-repeat left top; display:none; height:32px; left:274px; position:absolute; text-indent:-9999px; top:183px; width:452px;}
+.circ  {background:url('../imagens/circ.png') no-repeat left top; display:none; height:291px; left:187px; position:absolute; top:255px; width:291px;}
+.titArea-42 {background:url('../imagens/titArea-42.png') no-repeat left top; display:none; height:25px; left:263px; position:absolute; text-indent:-9999px; top:327px; width:147px;}
+.infoArea-4 {background:url('../imagens/infoArea-4.png') no-repeat left top; display:none; height:108px; left:261px; position:absolute; text-indent:-9999px; top:366px; width:154px;}
+.titArea-43 {background:url('../imagens/titArea-43.png') no-repeat left top; display:none; height:76px; left:520px; position:absolute; text-indent:-9999px; top:362px; width:269px;}
+
+.circ {
+	-webkit-animation:circ 50s linear infinite;
+	-moz-animation:circ 50s linear infinite;
+	animation:circ 50s linear infinite;
+}
+
+@-moz-keyframes circ { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes circ { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes circ { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+/*
+* AREA 5
+*/
+.titArea-5 {background:url('../imagens/titArea-5.png') no-repeat left top; display:none; height:42px; left:323px; position:absolute; text-indent:-9999px; top:60px; width:341px;}
+.titArea-51 {background:url('../imagens/titArea-51.png') no-repeat left top; display:none; height:25px; left:294px; position:absolute; text-indent:-9999px; top:124px; width:393px;}
+.infoArea-5 {background:url('../imagens/infoArea-5.png') no-repeat left top; display:none; height:95px; left:238px; position:absolute; text-indent:-9999px; top:192px; width:370px;}
+.titArea-52 {background:url('../imagens/titArea-52.png') no-repeat left top; display:none; height:36px; left:625px; position:absolute; text-indent:-9999px; top:243px; width:156px;}
+.titArea-53 {background:url('../imagens/titArea-53.png') no-repeat left top; display:none; height:57px; left:30px; position:absolute; text-indent:-9999px; top:334px; width:462px;}
+.infoArea-51 {background:url('../imagens/infoArea-51.png') no-repeat left top; display:none; height:54px; left:516px; position:absolute; text-indent:-9999px; top:332px; width:209px;}
+.titArea-54 {background:url('../imagens/titArea-54.png') no-repeat left top; display:none; height:29px; left:738px; position:absolute; text-indent:-9999px; top:357px; width:111px;}
+.casaArea-5 {background:url('../imagens/casa-5.png') no-repeat left top; display:none; height:115px; position:absolute; top:272px; right:0; width:117px;}
+.decorArea-5 {background:url('../imagens/decorArea-5.png') no-repeat left top; bottom:0; display:none; height:135px; left:30px; position:absolute; width:99px;}
+.decorArea-51 {background:url('../imagens/decorArea-51.png') no-repeat left top; bottom:0; display:none; height:142px; position:absolute; right:0; width:121px;}
+.familia-51 {background:url('../imagens/familia-51.png') no-repeat left top; bottom:-1px; display:none; height:160px; left:239px; position:absolute; width:267px;}
+.familia-52 {background:url('../imagens/familia-52.png') no-repeat left top; bottom:-1px; display:none; height:164px; position:absolute; right:218px; width:250px;}
+
+/*
+* AREA 6
+*/
+.titArea-6 {background:url('../imagens/titArea-6.png') no-repeat left top; display:none; height:43px; left:185px; position:absolute; text-indent:-9999px; top:61px; width:626px;}
+.titArea-61 {background:url('../imagens/titArea-61.png') no-repeat left top; display:none; height:31px; left:210px; position:absolute; text-indent:-9999px; top:121px; width:578px;}
+.infoArea-6 {background:url('../imagens/infoArea-6.png') no-repeat left top; display:none; height:150px; left:123px; position:absolute; text-indent:-9999px; top:195px; width:121px;}
+.pipeArea-6 {background:url('../imagens/pipeArea-6.png') no-repeat left top; display:none; height:73px; left:349px; position:absolute; text-indent:-9999px; top:206px; width:5px;}
+.pipeArea-61 {background:url('../imagens/pipeArea-6.png') no-repeat left top; display:none; height:73px; left:652px; position:absolute; text-indent:-9999px; top:206px; width:5px;}
+.infoArea-61 {background:url('../imagens/infoArea-61.png') no-repeat left top; display:none; height:150px; left:437px; position:absolute; text-indent:-9999px; top:194px; width:147px;}
+.infoArea-62 {background:url('../imagens/infoArea-62.png') no-repeat left top; display:none; height:150px; position:absolute; right:116px; text-indent:-9999px; top:194px; width:163px;}
+.dotsArea-6 {background:url('../imagens/dotsArea-6.png') no-repeat left top; display:none; height:119px; left:188px; position:absolute; top:374px; width:197px;}
+.dotsArea-61 {background:url('../imagens/dotsArea-61.png') no-repeat left top; display:none; height:119px; position:absolute; right:184px; top:374px; width:198px;}
+.compArea-6 {background:url('../imagens/compArea-6.png') no-repeat left 27px; bottom:31px; display:none; height:177px; left:437px; overflow:hidden; position:absolute; width:128px; z-index:5;}
+.fundoTelaComp {background:url('../imagens/fundoTelaComp.png') no-repeat left top; bottom:73px; height:71px; left:5px; overflow:hidden; position:absolute; width:118px; z-index:2;}
+.teclado {background:url('../imagens/tecladoArea-6.png') no-repeat left top; bottom:0; height:74px; left:0; position:absolute; width:128px; z-index:5;}
+.docArea-6 {background:url('../imagens/docArea-6.png') no-repeat left top; bottom:-30px; height:104px; left:27px; position:absolute; width:77px; z-index:3;}

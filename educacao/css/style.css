@@ -1,0 +1,136 @@
+/* 
+* Desenvolvimento: Felipe Campos
+* fplcampos@gmail.com
+* 2015-09-22
+*/
+
+body {background:url('../imagens/bg.jpg') no-repeat center top; min-height:2991px;}
+
+.wrap {margin:0 auto; overflow:hidden; position:relative; width:1000px;}
+
+h1 {background:url('../imagens/logo-govGO.jpg') no-repeat left top; display:inline-block; height:93px; position:absolute; text-indent:-9999px; top:0; width:195px;}
+h1 a {display:block; height:100%; width:100%;}
+
+/*
+* AREA 1
+*/
+.area-1 {min-height:592px; position:relative;}
+.area-1 .titArea-1 {background:url('../imagens/titArea-1.png') no-repeat left top; display:inline-block; height:119px; left:90px; position:absolute; text-indent:-9999px; top:266px; width:817px;}
+.area-1 .seta {background:url('../imagens/seta.png') no-repeat left top; display:inline-block; bottom:30px; cursor:pointer; height:40px; left:479px; position:absolute; text-indent:-9999px; width:41px;}
+
+/*
+* AREA 2
+*/
+.area-2 {min-height:592px; position:relative;}
+.titArea-2 {background:url('../imagens/titArea-2.png') no-repeat left top; display:none; height:43px; left:140px; position:absolute; text-indent:-9999px; top:52px; width:718px;}
+.titArea-21 {background:url('../imagens/titArea-21.png') no-repeat left top; display:none; height:62px; left:70px; position:absolute; text-indent:-9999px; top:202px; width:418px;}
+.infoArea-2 {background:url('../imagens/infoArea-2.png') no-repeat left top; display:none; height:99px; left:69px; position:absolute; text-indent:-9999px; top:296px; width:322px;}
+.professor {background:url('../imagens/professor.png') no-repeat left top; display:none; height:288px; position:absolute; right:162px; text-indent:-9999px; top:162px; width:184px; z-index:10;}
+.quadroNegro {background:url('../imagens/quadroNegro.png') no-repeat left top; display:none; height:269px; position:absolute; right:10px; text-indent:-9999px; top:174px; width:213px;}
+.globo {background:url('../imagens/globo.png') no-repeat left top; display:none; height:55px; position:absolute; right:90px; text-indent:-9999px; top:225px; width:58px;}
+.titArea-22 {background:url('../imagens/titArea-22.png') no-repeat left top; bottom:43px; display:none; height:53px; left:63px; position:absolute; text-indent:-9999px; width:879px;}
+
+.fade {
+	-webkit-animation: fadein 2s ease-in alternate infinite;
+	-moz-animation: fadein 2s ease-in alternate infinite;
+	animation: fadein 2s ease-in alternate infinite;
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/*
+* AREA 3
+*/
+.area-3 {min-height:592px; position:relative;}
+.titArea-3 {background:url('../imagens/titArea-3.png') no-repeat left top; display:none; height:36px; left:184px; position:absolute; text-indent:-9999px; top:59px; width:629px;}
+.infoArea-3 {background:url('../imagens/infoArea-3.png') no-repeat left top; display:none; height:91px; left:29px; position:absolute; text-indent:-9999px; top:188px; width:526px;}
+.titArea-31 {background:url('../imagens/titArea-31.png') no-repeat left top; display:none; height:52px; left:29px; position:absolute; text-indent:-9999px; top:292px; width:402px;}
+.titArea-32 {background:url('../imagens/titArea-32.png') no-repeat left top; display:none; height:54px; left:29px; position:absolute; text-indent:-9999px; top:375px; width:626px;}
+.infoCirc-3 {background:url('../imagens/infoCirc-3.png') no-repeat left top; display:none; height:78px; position:absolute; right:40px; text-indent:-9999px; top:258px; width:210px;} 
+.circArea-3 {display:none; position:absolute; right:2px; top:140px;}
+.circArea-3 {
+	-webkit-animation-name: circArea3;
+	-webkit-animation-duration: 1000ms;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-name: circArea3;
+	-moz-animation-duration: 1000ms;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	-ms-animation-name: circArea3;
+	-ms-animation-duration: 1000ms;
+	-ms-animation-iteration-count: infinite;
+	-ms-animation-timing-function: linear;
+	
+	animation-name: circArea3;
+	animation-duration: 1000ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@-ms-keyframes circArea3 {
+	from { -ms-transform: rotate(0deg); }
+	to { -ms-transform: rotate(-360deg); }
+}
+@-moz-keyframes circArea3 {
+	from { -moz-transform: rotate(0deg); }
+	to { -moz-transform: rotate(-360deg); }
+}
+@-webkit-keyframes circArea3 {
+	from { -webkit-transform: rotate(0deg); }
+	to { -webkit-transform: rotate(-360deg); }
+}
+@keyframes circArea3 {
+	from {
+		transform:rotate(0deg);
+	}
+	to {
+		transform:rotate(-360deg);
+	}
+}
+
+/*
+* AREA 4
+*/
+.area-4 {min-height:592px; position:relative;}
+.titArea-4 {background:url('../imagens/titArea-4.png') no-repeat left top; display:none; height:118px; left:138px; position:absolute; text-indent:-9999px; top:53px; width:712px;}
+.titArea-41 {background:url('../imagens/titArea-41.png') no-repeat left top; display:none; height:25px; left:280px; position:absolute; text-indent:-9999px; top:187px; width:443px;}
+.estudante {background:url('../imagens/estudante.png') no-repeat left top; bottom:0; display:none; height:244px; left:32px; position:absolute; text-indent:-9999px; width:149px;} 
+.infoArea-4 {background:url('../imagens/infoArea-4.png') no-repeat left top; display:none; height:82px; left:261px; position:absolute; text-indent:-9999px; top:294px; width:336px;} 
+.divisao {background:url('../imagens/divisao.png') no-repeat left top; display:none; height:93px; left:639px; position:absolute; text-indent:-9999px; top:289px; width:5px;} 
+.infoArea-42 {background:url('../imagens/infoArea-42.png') no-repeat left top; display:none; height:95px; position:absolute; right:18px; text-indent:-9999px; top:296px; width:297px;} 
+.titArea-42 {background:url('../imagens/titArea-42.png') no-repeat left top; display:none; height:51px; position:absolute; right:48px; text-indent:-9999px; top:415px; width:269px;} 
+
+/*
+* AREA 5
+*/
+.area-5 {min-height:592px; position:relative;}
+.titArea-5 {background:url('../imagens/titArea-5.png') no-repeat left top; display:none; height:72px; left:403px; position:absolute; text-indent:-9999px; top:80px; width:421px;}
+.prancheta {background:url('../imagens/prancheta.png') no-repeat left top; display:none; height:124px; left:239px; position:absolute; text-indent:-9999px; top:59px; width:115px;}
+.titArea-51 {background:url('../imagens/titArea-51.png') no-repeat left top; display:none; height:23px; left:30px; position:absolute; text-indent:-9999px; top:236px; width:434px;}
+.titArea-52 {background:url('../imagens/titArea-52.png') no-repeat left top; display:none; height:59px; left:30px; position:absolute; text-indent:-9999px; top:295px; width:198px;}
+.linha-52 {background:url('../imagens/linha-52.png') no-repeat left top; display:none; height:5px; left:247px; position:absolute; text-indent:-9999px; top:323px; width:63px;}
+.infoArea-5 {background:url('../imagens/infoArea-5.png') no-repeat left top; display:none; height:71px; left:328px; position:absolute; text-indent:-9999px; top:291px; width:101px;}
+.titArea-53 {background:url('../imagens/titArea-53.png') no-repeat left top; display:none; height:35px; left:30px; position:absolute; text-indent:-9999px; top:447px; width:102px;}
+.linha-53 {background:url('../imagens/linha-53.png') no-repeat left top; display:none; height:5px; left:149px; position:absolute; text-indent:-9999px; top:466px; width:143px;}
+.infoArea-52 {background:url('../imagens/infoArea-52.png') no-repeat left top; bottom:50px; display:none; height:145px; left:308px; position:absolute; text-indent:-9999px; width:145px;}
+.titArea-54 {background:url('../imagens/titArea-54.png') no-repeat left top; display:none; height:23px; position:absolute; right:0; text-indent:-9999px; top:236px; width:421px;}
+.titArea-55 {background:url('../imagens/titArea-55.png') no-repeat left top; display:none; height:25px; position:absolute; right:223px; text-indent:-9999px; top:308px; width:198px;}
+.linha-55 {background:url('../imagens/linha-55.png') no-repeat left top; display:none; height:5px; position:absolute; right:146px; text-indent:-9999px; top:323px; width:63px;}
+.infoArea-55 {background:url('../imagens/infoArea-55.png') no-repeat left top; display:none; height:70px; position:absolute; right:25px; text-indent:-9999px; top:292px; width:104px;}
+.titArea-56 {background:url('../imagens/titArea-53.png') no-repeat left top; display:none; height:35px; position:absolute; right:319px; text-indent:-9999px; top:447px; width:102px;}
+.linha-56 {background:url('../imagens/linha-53.png') no-repeat left top; display:none; height:5px; position:absolute; right:161px; text-indent:-9999px; top:466px; width:143px;}
+.infoArea-56 {background:url('../imagens/infoArea-56.png') no-repeat left top; bottom:50px; display:none; height:145px; position:absolute; right:2px; text-indent:-9999px; width:145px;}
